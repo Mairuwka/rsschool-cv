@@ -7,3 +7,7 @@
  * GitHub: [Mairuwka](https://github.com/Mairuwka)
  * Telegram: [Andrew Maiorov](https://t.me/Mairuwka)
 <hr>
+
+## About Me
+For the last six months I have been actively self-training, gaining experience and expanding my knowledge. Ability to work in a team, find common language with people. Also want and can develop as a person and a programmer, applying my skills of time-management for their productivity.
+<hr>
