@@ -1,1 +1,0 @@
-https://Mairuwka.github.io/rsschool-cv/cv
