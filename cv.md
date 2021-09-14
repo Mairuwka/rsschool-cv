@@ -36,3 +36,7 @@ function solution(a, b){
   * HTML/CSS ([WebDev](https://www.youtube.com/c/YauhenKavalchuk/featured), [FreelancerLifeStyle](https://www.youtube.com/c/FreelancerLifeStyle))
   * JavaScript ([Documentation](https://learn.javascript.ru), [WebDev(AlexLuchenko)](https://www.youtube.com/c/itgid/videos))
 <hr>
+
+## Languages 
+* Russian - native
+* English - A1(A2 in process..)
