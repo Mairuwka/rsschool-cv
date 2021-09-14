@@ -28,3 +28,11 @@ function solution(a, b){
 }
 ```
 <hr>
+
+## Education 
+* Polytechnic College
+  * Information systems and programming
+* YouTube
+  * HTML/CSS ([WebDev](https://www.youtube.com/c/YauhenKavalchuk/featured), [FreelancerLifeStyle](https://www.youtube.com/c/FreelancerLifeStyle))
+  * JavaScript ([Documentation](https://learn.javascript.ru), [WebDev(AlexLuchenko)](https://www.youtube.com/c/itgid/videos))
+<hr>
