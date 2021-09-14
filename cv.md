@@ -20,3 +20,11 @@ For the last six months I have been actively self-training, gaining experience a
 * Git/Github
 * Figma, Avocode
 <hr>
+
+## Code example
+```
+function solution(a, b){
+  return a.length > b.length ? b + a + b : a + b + a;
+}
+```
+<hr>
