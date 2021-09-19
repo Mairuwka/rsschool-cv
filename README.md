@@ -1,1 +1,1 @@
-https://Mairuwka.github.io/rsschool-cv/cv
+https://Mairuwka.github.io/rsschool-cv/
