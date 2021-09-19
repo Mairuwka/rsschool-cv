@@ -588,3 +588,36 @@ body.lock {
 .project__text {
   margin: 0 0 20px 0;
 }
+
+.code-example {
+  margin: 0 0 40px 0;
+}
+
+.code-example__body {
+  background-color: #ffc0ad;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  padding: 0 0 10px 0;
+}
+
+.code {
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  margin: 0 10px;
+}
+
+.code-example__preview {
+  font-size: 12px;
+}
+
+@media (max-width: 565px) {
+  .code-example__preview {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 412px) {
+  .code-example__preview {
+    font-size: 7.5px;
+  }
+}

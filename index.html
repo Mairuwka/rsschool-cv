@@ -4,6 +4,8 @@
 		<title>Andrew Maiorov CV</title>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" href="./css/styles.min.css">
+		<link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/default.min.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="format-detection" content="telephone=no">
 	</head>
@@ -21,13 +23,13 @@
 									<a href="#summary" class="header__link">Summary</a>
 								</li>
 								<li>
-									<a href="#" class="header__link">Skills</a>
+									<a href="#skills" class="header__link">Skills</a>
 								</li>
 								<li>
-									<a href="#" class="header__link">My Project</a>
+									<a href="#project" class="header__link">My Project</a>
 								</li>
 								<li>
-									<a href="#" class="header__link">Code example</a>
+									<a href="#code" class="header__link">Code example</a>
 								</li>
 								<li>
 									<a href="#" class="header__link">Education</a>
@@ -68,8 +70,8 @@
 				</section>
 				<div class="skills-project">
 					<div class="container">
-						<div class="skills-project__body">
-							<aside class="skills-project__element skills">
+						<div class="skills-project__body" >
+							<aside class="skills-project__element skills" id="skills">
 								<h2 class="skills__title title">Skills</h2>
 								<ul class="skills__list">
 									<li class="skills__column">HTML5</li>
@@ -80,7 +82,7 @@
 									<li class="skills__column">Figma, Avocode</li>
 								</ul>
 							</aside>
-							<section class="skills-project__element project">
+							<section class="skills-project__element project" id="project">
 								<h2 class="project__title title">My Project</h2>
 								<div class="project__row">
 									<div class="project__columns">
@@ -102,8 +104,23 @@
 						</div>
 					</div>
 				</div>
+				<section class="code-example" id="code">
+					<div class="container">
+						<div class="code-example__body">
+							<h2 class="code-example__title title">Code example</h2>
+							<pre>
+								<code class="code code-example__preview">
+function solution(a, b){
+ return a.length > b.length ? b + a + b : a + b + a;
+}
+								</code></pre>
+						</div>
+						</div>
+				</section>
 			</main>
 		</div>
 		<script src="js/script.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+		<script>hljs.highlightAll();</script>
 	</body>
 </html>
