@@ -466,3 +466,125 @@ body.lock {
 .summary__span a:hover {
   color: #fff;
 }
+
+.skills-project {
+  margin: 40px 0 40px 0;
+}
+
+.skills-project__body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 580px) {
+  .skills-project__body {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+}
+
+.skills-project__element {
+  background-color: #ffc0ad;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+}
+
+.skills {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 250px;
+      -ms-flex: 0 0 250px;
+          flex: 0 0 250px;
+  margin: 0 20px 0 0;
+}
+
+@media (max-width: 580px) {
+  .skills {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100%;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    margin: 0 20px 40px 0;
+  }
+}
+
+.skills__list {
+  margin: 0 0 20px 0;
+}
+
+.skills__column {
+  margin: 0 0 10px 25px;
+  list-style: circle;
+}
+
+.project {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 900px;
+      -ms-flex: 0 1 900px;
+          flex: 0 1 900px;
+}
+
+@media (max-width: 580px) {
+  .project {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 1 100%;
+        -ms-flex: 0 1 100%;
+            flex: 0 1 100%;
+  }
+}
+
+.project__row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 700px) {
+  .project__row {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+}
+
+.project__columns {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 100%;
+      -ms-flex: 0 1 100%;
+          flex: 0 1 100%;
+  padding: 0 10px;
+}
+
+@media (max-width: 700px) {
+  .project__columns {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 1 100%;
+        -ms-flex: 0 1 100%;
+            flex: 0 1 100%;
+  }
+}
+
+.project__image img {
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  max-width: 100%;
+}
+
+.project__label {
+  margin: 10px 0;
+}
+
+.project__label a {
+  color: #000;
+}
+
+.project__label a:hover {
+  color: #fff;
+}
+
+.project__text {
+  margin: 0 0 20px 0;
+}
