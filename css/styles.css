@@ -621,3 +621,32 @@ body.lock {
     font-size: 7.5px;
   }
 }
+
+.education {
+  margin: 0 0 40px 0;
+}
+
+.education__body {
+  background-color: #ffc0ad;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  padding: 0 0 15px 0;
+}
+
+.education__row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px;
+  margin: 0 0 20px 0;
+}
+
+.education__year {
+  margin: 10px 30px 0 10px;
+}
+
+.education__text h6 {
+  font-weight: 700;
+  margin: 0 0 15px 0;
+}
