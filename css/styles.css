@@ -670,3 +670,47 @@ body.lock {
   margin: 0 0 10px 0;
   list-style: circle;
 }
+
+.footer {
+  background-color: #412e29;
+}
+
+.footer-body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer__row {
+  height: 50px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__logo img {
+  width: 100px;
+}
+
+.footer__year {
+  font-size: 20px;
+}
+
+.footer__github img {
+  width: 40px;
+}
