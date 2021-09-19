@@ -650,3 +650,23 @@ body.lock {
   font-weight: 700;
   margin: 0 0 15px 0;
 }
+
+.language {
+  margin: 0 0 40px 0;
+}
+
+.language__body {
+  background-color: #ffc0ad;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  padding: 0 0 15px 0;
+}
+
+.language__list {
+  margin: 0 0 0 50px;
+}
+
+.language__items {
+  margin: 0 0 10px 0;
+  list-style: circle;
+}
